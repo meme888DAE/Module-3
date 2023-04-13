@@ -1,0 +1,58 @@
+.french-flag: {
+  content: "";
+  width: 05%;
+  height:05%;
+ 
+  background-color: #0055A4;
+  position:absolute;
+  top: 0;
+  left: 0;
+}
+.french-flag:before {
+  content: "";
+  width: 05%;
+  height:05%;
+  background-color: white;
+  position:absolute;
+  top: 0;
+  left: 0;
+  z-index:4;
+} 
+.french-flag:after {
+  content: "";
+  width: 05%;
+  height:05%;
+  background-color: red;
+  position:absolute;
+  top: 0;
+  left: 0;
+  z-index:4;
+}
+}
+
+body
+  {
+    font-family: "tahoma";
+    color: purple;
+    background-color: #ebebfa;
+  }
+   h1 {
+    color: #DA70D6;
+    text-align: center;
+      }
+  h2
+    {
+      color: chocolate;
+  
+    }
+
+  .pages
+    {
+      background-color: #DA70D0;
+    
+    }
+
+  .bottom 
+    {
+      background-color: #DA7890;
+    }
