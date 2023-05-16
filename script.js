@@ -4,8 +4,9 @@
 var userScore; 
 var passGoal = 5;
 userScore = 2;
-If ( userScore < passGoal ) {
-  console.log( "You did not go to Paris for enough time with only" + userScore + "there is no way that you had enough time to any anything in such a short time" + passGoal "would have been better."  );
+/* added logical operator*/
+If ( userScore < passGoal && underscore > 3 ) {
+  console.log( "You did not go to Paris for enough time with only" + userScore + "there is no way that you had enough time to any anything in such a short time" + passGoal+ "would have been better."  );
 } else {
   console.log(  " You must have had an amazing time in Paris!!"); 
 }
@@ -16,12 +17,12 @@ var result;
 
 firstNumber = 20;
 secondNumber = 30;
-results =firstNumber + secondNumber;
+result =firstNumber + secondNumber;
 alert( result);
 
 function howmanytrips(userScore,passGoal ){
   If ( userScore < passGoal ) {
-      return ( "You did not go to Paris for enough time with       only" + userScore + "there is no way that you had enough         time to any anything in such a short time" + passGoal            "would have been better."  );
+      return ( "You did not go to Paris for enough time with       only" + userScore + "there is no way that you had enough         time to any anything in such a short time" + passGoal +           "would have been better."  );
 } else {
   return ( " You must have had an amazing time in Paris!!"); 
   }
